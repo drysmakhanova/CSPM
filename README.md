@@ -9,6 +9,7 @@ To use: Initiate CoppeliaSim with terminal from downloaded folder. Open CSPM mod
 
 2. Dynamixel Workbench - https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/ 
 To use: Launch dynamixel_controllers.launch file and run phys_model.cpp node to connect to dynamixel motors of physical model.
+
 roslaunch dynamixel_workbench_controllers dynamixel_controllers.launch
 rosrun sim_pkg phys_model
 
