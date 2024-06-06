@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/dinara/ws/build/template_gui_package/hello_gui_node_autogen",
+	"CMAKE_BINARY_DIR" : "/home/dinara/ws/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/dinara/ws/build/template_gui_package",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/dinara/ws/src/template_gui_package",
+	"CMAKE_SOURCE_DIR" : "/home/dinara/ws/src",
+	"INCLUDE_DIR" : "/home/dinara/ws/build/template_gui_package/hello_gui_node_autogen/include",
+	"INPUTS" : [ "/home/dinara/ws/src/template_gui_package/rc/my_gui_icon.png" ],
+	"LOCK_FILE" : "/home/dinara/ws/build/template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/AutoRcc_example_resouce_DCE47BCNNQ_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "example_resouce" ],
+	"OUTPUT_CHECKSUM" : "DCE47BCNNQ",
+	"OUTPUT_NAME" : "qrc_example_resouce.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/dinara/ws/build/template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/AutoRcc_example_resouce_DCE47BCNNQ_Used.txt",
+	"SOURCE" : "/home/dinara/ws/src/template_gui_package/rc/example_resouce.qrc",
+	"VERBOSITY" : 0
+}

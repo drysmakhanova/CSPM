@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="template_package_msgs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\noetic\;CMake Files\..\..\..\..\opt\ros\noetic\share\;CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\;CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\opt\ros\noetic\share\std_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\message_runtime\;CMake Files\..\..\..\..\opt\ros\noetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\cpp_common\;CMake Files\..\..\..\..\opt\ros\noetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\;CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp_traits\;CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\rostime\;CMake Files\..\..\..\..\opt\ros\noetic\share\rostime\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\message_generation\;CMake Files\..\..\..\..\opt\ros\noetic\share\message_generation\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\gencpp\;CMake Files\..\..\..\..\opt\ros\noetic\share\gencpp\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\;CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\geneus\;CMake Files\..\..\..\..\opt\ros\noetic\share\geneus\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\genlisp\;CMake Files\..\..\..\..\opt\ros\noetic\share\genlisp\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\gennodejs\;CMake Files\..\..\..\..\opt\ros\noetic\share\gennodejs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\genpy\;CMake Files\..\..\..\..\opt\ros\noetic\share\genpy\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp\;CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosconsole\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\;CMake Files\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\rospy\;CMake Files\..\..\..\..\opt\ros\noetic\share\rospy\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\geometry_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\sensor_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\trajectory_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\trajectory_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\cmake_modules\;CMake Files\..\..\..\..\opt\ros\noetic\share\cmake_modules\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\cmake_modules\cmake\Modules\;CMake Files\..\..\..\..\opt\ros\noetic\share\std_srvs\;CMake Files\..\..\..\..\opt\ros\noetic\share\std_srvs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\cv_bridge\;CMake Files\..\..\..\..\opt\ros\noetic\share\cv_bridge\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\image_transport\;CMake Files\..\..\..\..\opt\ros\noetic\share\image_transport\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\message_filters\;CMake Files\..\..\..\..\opt\ros\noetic\share\message_filters\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\pluginlib\;CMake Files\..\..\..\..\opt\ros\noetic\share\pluginlib\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\class_loader\;CMake Files\..\..\..\..\opt\ros\noetic\share\class_loader\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\roslib\;CMake Files\..\..\..\..\opt\ros\noetic\share\roslib\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\rospack\;CMake Files\..\..\..\..\opt\ros\noetic\share\rospack\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_ros\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_ros\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib\;CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosgraph\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosgraph\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_py\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_py\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\control_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\control_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\diagnostic_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\diagnostic_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\map_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\map_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\nav_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\nav_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\shape_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\shape_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_geometry_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_geometry_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\visualization_msgs\;CMake Files\..\..\..\..\opt\ros\noetic\share\visualization_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosbag\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosbag\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosbag_storage\;CMake Files\..\..\..\..\opt\ros\noetic\share\rosbag_storage\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\roslz4\;CMake Files\..\..\..\..\opt\ros\noetic\share\roslz4\cmake\;CMake Files\..\..\..\..\opt\ros\noetic\share\topic_tools\;CMake Files\..\..\..\..\opt\ros\noetic\share\topic_tools\cmake\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\python3\;CMake Files\..\..\..\..\usr\lib\python3\dist-packages\;CMake Files\..\..\..\..\usr\lib\python3\dist-packages\catkin_pkg\;CMake Files\..\..\..\..\usr\lib\python3\dist-packages\catkin_pkg\templates\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\googletest\;CMake Files\..\..\..\..\usr\src\googletest\googlemock\;CMake Files\..\..\..\..\usr\src\googletest\googletest\;CMake Files\..\..\..\..\usr\src\googletest\googletest\cmake\;CMake Files\..\..\Downloads\;CMake Files\..\..\Downloads\CoppeliaSim_Edu_V4_3_0_Ubuntu20_04\;CMake Files\..\..\Downloads\CoppeliaSim_Edu_V4_3_0_Ubuntu20_04\programming\;CMake Files\..\..\Downloads\CoppeliaSim_Edu_V4_3_0_Ubuntu20_04\programming\libPlugin\;CMake Files\..\..\Downloads\CoppeliaSim_Edu_V4_3_0_Ubuntu20_04\programming\libPlugin\cmake\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;CMake Files\..\build\dynamixel-workbench\;CMake Files\..\build\dynamixel-workbench\dynamixel_workbench\;CMake Files\..\build\dynamixel-workbench\dynamixel_workbench\catkin_generated\;CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_toolbox\;CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_toolbox\catkin_generated\;CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_controllers\;CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_controllers\catkin_generated\;CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_operators\;CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_operators\catkin_generated\;CMake Files\..\build\dynamixel-workbench-msgs\;CMake Files\..\build\dynamixel-workbench-msgs\dynamixel_workbench_msgs\;CMake Files\..\build\dynamixel-workbench-msgs\dynamixel_workbench_msgs\catkin_generated\;CMake Files\..\build\dynamixel-workbench-msgs\dynamixel_workbench_msgs\cmake\;CMake Files\..\build\template_package_msgs\;CMake Files\..\build\template_package_msgs\catkin_generated\;CMake Files\..\build\template_package_msgs\cmake\;CMake Files\..\build\DynamixelSDK\;CMake Files\..\build\DynamixelSDK\ros\;CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk\;CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk\catkin_generated\;CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk_examples\;CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk_examples\catkin_generated\;CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk_examples\cmake\;CMake Files\..\build\gui\;CMake Files\..\build\gui\catkin_generated\;CMake Files\..\build\gui_v3\;CMake Files\..\build\gui_v3\catkin_generated\;CMake Files\..\build\ros_bubble_rob-master\;CMake Files\..\build\ros_bubble_rob-master\catkin_generated\;CMake Files\..\build\template_gui_package\;CMake Files\..\build\template_gui_package\catkin_generated\;CMake Files\..\build\platform_manipulator_msgs\;CMake Files\..\build\platform_manipulator_msgs\catkin_generated\;CMake Files\..\build\platform_manipulator_msgs\cmake\;CMake Files\..\build\platform_manipulator\;CMake Files\..\build\platform_manipulator\catkin_generated\;CMake Files\..\build\simExtROS-master\;CMake Files\..\build\simExtROS-master\catkin_generated\;CMake Files\..\build\simExtROS-master\generated\;CMake Files\..\build\sim_pkg\;CMake Files\..\build\sim_pkg\catkin_generated\;CMake Files\..\build\sim_pkg\cmake\;CMake Files\..\devel\;CMake Files\..\devel\share\;CMake Files\..\devel\share\dynamixel_workbench_msgs\;CMake Files\..\devel\share\dynamixel_workbench_msgs\cmake\;CMake Files\..\devel\share\template_package_msgs\;CMake Files\..\devel\share\template_package_msgs\cmake\;CMake Files\..\devel\share\dynamixel_sdk\;CMake Files\..\devel\share\dynamixel_sdk\cmake\;CMake Files\..\devel\share\dynamixel_sdk_examples\;CMake Files\..\devel\share\dynamixel_sdk_examples\cmake\;CMake Files\..\devel\share\dynamixel_workbench_toolbox\;CMake Files\..\devel\share\dynamixel_workbench_toolbox\cmake\;CMake Files\..\devel\share\dynamixel_workbench_controllers\;CMake Files\..\devel\share\dynamixel_workbench_controllers\cmake\;CMake Files\..\devel\share\platform_manipulator_msgs\;CMake Files\..\devel\share\platform_manipulator_msgs\cmake\;CMake Files\..\devel\share\sim_pkg\;CMake Files\..\devel\share\sim_pkg\cmake\;CMake Files\dynamixel-workbench\;CMake Files\dynamixel-workbench\dynamixel_workbench\;CMake Files\dynamixel-workbench\dynamixel_workbench_toolbox\;CMake Files\dynamixel-workbench\dynamixel_workbench_controllers\;CMake Files\dynamixel-workbench\dynamixel_workbench_operators\;CMake Files\dynamixel-workbench-msgs\;CMake Files\dynamixel-workbench-msgs\dynamixel_workbench_msgs\;CMake Files\template_package_msgs\;CMake Files\DynamixelSDK\;CMake Files\DynamixelSDK\ros\;CMake Files\DynamixelSDK\ros\dynamixel_sdk\;CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\;CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\;CMake Files\DynamixelSDK\ros\dynamixel_sdk_examples\;CMake Files\gui\;CMake Files\gui_v3\;CMake Files\ros_bubble_rob-master\;CMake Files\template_gui_package\;CMake Files\template_gui_package\rc\;CMake Files\platform_manipulator_msgs\;CMake Files\platform_manipulator\;CMake Files\simExtROS-master\;CMake Files\simExtROS-master\include\;CMake Files\sim_pkg\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_generate_messages">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_generate_messages"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_gencpp">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_gencpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_genlisp">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_genlisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_generate_messages_eus">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_geneus">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_geneus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_generate_messages_cpp">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_generate_messages_lisp">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_gennodejs">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_gennodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_generate_messages_py">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_package_msgs_genpy">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 template_package_msgs_genpy"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_template_package_msgs_generate_messages_check_deps_example">
+				<Option working_dir="/home/dinara/ws/build/template_package_msgs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 _template_package_msgs_generate_messages_check_deps_example"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dinara/ws/build/template_package_msgs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dinara/ws/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/package.xml">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/all.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/assert.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkinConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_add_env_hooks.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_destinations.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_download.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_generate_environment.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_install_python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_metapackage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_package.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_package_xml.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_python_setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_symlink_install.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/catkin_workspace.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/custom_install.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/debug_message.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/em_expand.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/empy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/find_program_required.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/interrogate_setup_dot_py.py">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/legacy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/list_append_deduplicate.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/list_append_unique.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/list_insert_in_workspace_order.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/safe_execute_process.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/stamp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/string_starts_with.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/platform/lsb.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/platform/ubuntu.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/platform/windows.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/test/catkin_download_test_data.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/test/gtest.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/test/nosetests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/test/tests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/tools/doxygen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/tools/libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/tools/rt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/__init__.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/_setup_util.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/env.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/generate_cached_setup.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/local_setup.bash.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/local_setup.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/local_setup.zsh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/order_packages.context.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/pkg.context.pc.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/python_distutils_install.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/rosinstall.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/safe_execute_install.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/script.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/setup.bash.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/setup.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/templates/setup.zsh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/em/order_packages.cmake.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/catkin/cmake/em/pkg.pc.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/std_msgs/cmake/std_msgs-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\message_runtime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\message_runtime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\cpp_common\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\cpp_common\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp_traits\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp_traits\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rostime/cmake/rostimeConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rostime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rostime/cmake/rostimeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rostime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/message_generation/cmake/message_generationConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/message_generation/cmake/message_generationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/gencpp/cmake/gencpp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/gencpp/cmake/gencppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/gencpp/cmake/gencppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genmsg/cmake/genmsgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genmsg/cmake/pkg-genmsg.cmake.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genmsg/cmake/pkg-genmsg.context.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genmsg/cmake/pkg-msg-extras.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genmsg/cmake/pkg-msg-paths.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genmsg/cmake/pkg-msg-paths.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/geneus/cmake/geneus-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/geneus/cmake/geneusConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/geneus/cmake/geneusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genlisp/cmake/genlisp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genlisp/cmake/genlispConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genlisp/cmake/genlispConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/gennodejs/cmake/gennodejs-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/gennodejs/cmake/gennodejsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genpy/cmake/genpy-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genpy/cmake/genpyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/genpy/cmake/genpyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roscpp/cmake/roscppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roscpp/cmake/roscppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rospy/cmake/rospyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rospy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rospy/cmake/rospyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rospy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\sensor_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\sensor_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\sensor_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/trajectory_msgs/cmake/trajectory_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\trajectory_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\trajectory_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\trajectory_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/cmake_modules/cmake/cmake_modules-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\cmake_modules\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/cmake_modules/cmake/cmake_modulesConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\cmake_modules\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/cmake_modules/cmake/cmake_modulesConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\cmake_modules\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/cmake_modules/cmake/Modules/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\cmake_modules\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/std_srvs/cmake/std_srvs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\std_srvs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/std_srvs/cmake/std_srvsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\std_srvs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/std_srvs/cmake/std_srvsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\std_srvs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/cv_bridge/cmake/cv_bridge-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\cv_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\cv_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/cv_bridge/cmake/cv_bridgeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\cv_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/image_transport/cmake/image_transportConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\image_transport\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/image_transport/cmake/image_transportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\image_transport\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/message_filters/cmake/message_filtersConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\message_filters\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/message_filters/cmake/message_filtersConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\message_filters\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/pluginlib/cmake/pluginlibConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\pluginlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/pluginlib/cmake/pluginlibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\pluginlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/class_loader/cmake/class_loader-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\class_loader\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/class_loader/cmake/class_loaderConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\class_loader\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/class_loader/cmake/class_loaderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\class_loader\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roslib/cmake/roslib-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roslib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roslib/cmake/roslibConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roslib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roslib/cmake/roslibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roslib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rospack/cmake/rospackConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rospack\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rospack/cmake/rospackConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rospack\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf/cmake/tf-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf/cmake/tfConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf/cmake/tfConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2_ros/cmake/tf2_rosConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_ros\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2_ros/cmake/tf2_rosConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_ros\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/actionlib/cmake/actionlib-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/actionlib/cmake/actionlibConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/actionlib/cmake/actionlibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/actionlib_msgs/cmake/actionlib_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/actionlib_msgs/cmake/actionlib_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosgraph/cmake/rosgraphConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosgraph\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosgraph/cmake/rosgraphConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosgraph\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2/cmake/tf2Config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2/cmake/tf2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2_msgs/cmake/tf2_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2_msgs/cmake/tf2_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2_msgs/cmake/tf2_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2_py/cmake/tf2_pyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_py\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2_py/cmake/tf2_pyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_py\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/control_msgs/cmake/control_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\control_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/control_msgs/cmake/control_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\control_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/control_msgs/cmake/control_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\control_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/diagnostic_msgs/cmake/diagnostic_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\diagnostic_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\diagnostic_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\diagnostic_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/map_msgs/cmake/map_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\map_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/map_msgs/cmake/map_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\map_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/map_msgs/cmake/map_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\map_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/nav_msgs/cmake/nav_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\nav_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/nav_msgs/cmake/nav_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\nav_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/nav_msgs/cmake/nav_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\nav_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/shape_msgs/cmake/shape_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\shape_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/shape_msgs/cmake/shape_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\shape_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/shape_msgs/cmake/shape_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\shape_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\tf2_geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/visualization_msgs/cmake/visualization_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\visualization_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\visualization_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/visualization_msgs/cmake/visualization_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\visualization_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosbag/cmake/rosbagConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosbag\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosbag/cmake/rosbagConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosbag\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosbag_storage/cmake/rosbag_storage-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosbag_storage\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosbag_storage/cmake/rosbag_storageConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosbag_storage\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/rosbag_storage/cmake/rosbag_storageConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\rosbag_storage\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roslz4/cmake/roslz4Config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roslz4\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/roslz4/cmake/roslz4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\roslz4\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/topic_tools/cmake/topic_tools-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\topic_tools\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/topic_tools/cmake/topic_toolsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\topic_tools\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../opt/ros/noetic/share/topic_tools/cmake/topic_toolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\noetic\share\topic_tools\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/python3/dist-packages/catkin_pkg/templates/metapackage.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\python3\dist-packages\catkin_pkg\templates\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupport_QCupsPrinterSupportPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\src\googletest\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/src/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\src\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/src/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\src\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../../../usr/src/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\src\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../../Downloads/CoppeliaSim_Edu_V4_3_0_Ubuntu20_04/programming/libPlugin/cmake/FindCoppeliaSim.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\CoppeliaSim_Edu_V4_3_0_Ubuntu20_04\programming\libPlugin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/sim_version_check.cpp">
+			<Option virtualFolder="CMake Files\..\build\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/catkin/catkin_generated/version/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\catkin\catkin_generated\version\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/catkin_generated/order_packages.cmake">
+			<Option virtualFolder="CMake Files\..\build\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/catkin_generated/installspace/_setup_util.py">
+			<Option virtualFolder="CMake Files\..\build\catkin_generated\installspace\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench/dynamixel_workbench/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench\dynamixel_workbench\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench/dynamixel_workbench_toolbox/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_toolbox\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench/dynamixel_workbench_toolbox/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_toolbox\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench/dynamixel_workbench_controllers/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_controllers\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench/dynamixel_workbench_controllers/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_controllers\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench/dynamixel_workbench_operators/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_operators\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench/dynamixel_workbench_operators/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench\dynamixel_workbench_operators\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench-msgs/dynamixel_workbench_msgs/catkin_generated/dynamixel_workbench_msgs-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench-msgs\dynamixel_workbench_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench-msgs/dynamixel_workbench_msgs/catkin_generated/dynamixel_workbench_msgs-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench-msgs\dynamixel_workbench_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench-msgs/dynamixel_workbench_msgs/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench-msgs\dynamixel_workbench_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench-msgs/dynamixel_workbench_msgs/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench-msgs\dynamixel_workbench_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/dynamixel-workbench-msgs/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs-genmsg.cmake">
+			<Option virtualFolder="CMake Files\..\build\dynamixel-workbench-msgs\dynamixel_workbench_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/template_package_msgs/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\template_package_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/template_package_msgs/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\template_package_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/template_package_msgs/catkin_generated/template_package_msgs-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\..\build\template_package_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/template_package_msgs/catkin_generated/template_package_msgs-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\..\build\template_package_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/template_package_msgs/cmake/template_package_msgs-genmsg.cmake">
+			<Option virtualFolder="CMake Files\..\build\template_package_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/DynamixelSDK/ros/dynamixel_sdk/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/DynamixelSDK/ros/dynamixel_sdk/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/DynamixelSDK/ros/dynamixel_sdk/catkin_generated/setup_py_interrogation.cmake">
+			<Option virtualFolder="CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/DynamixelSDK/ros/dynamixel_sdk_examples/catkin_generated/dynamixel_sdk_examples-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk_examples\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/DynamixelSDK/ros/dynamixel_sdk_examples/catkin_generated/dynamixel_sdk_examples-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk_examples\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/DynamixelSDK/ros/dynamixel_sdk_examples/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk_examples\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/DynamixelSDK/ros/dynamixel_sdk_examples/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk_examples\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/DynamixelSDK/ros/dynamixel_sdk_examples/cmake/dynamixel_sdk_examples-genmsg.cmake">
+			<Option virtualFolder="CMake Files\..\build\DynamixelSDK\ros\dynamixel_sdk_examples\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/gui/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\gui\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/gui/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\gui\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/gui_v3/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\gui_v3\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/gui_v3/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\gui_v3\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/ros_bubble_rob-master/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\ros_bubble_rob-master\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/template_gui_package/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\template_gui_package\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/template_gui_package/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\template_gui_package\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/platform_manipulator_msgs/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\platform_manipulator_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/platform_manipulator_msgs/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\platform_manipulator_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/platform_manipulator_msgs/catkin_generated/platform_manipulator_msgs-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\..\build\platform_manipulator_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/platform_manipulator_msgs/catkin_generated/platform_manipulator_msgs-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\..\build\platform_manipulator_msgs\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/platform_manipulator_msgs/cmake/platform_manipulator_msgs-genmsg.cmake">
+			<Option virtualFolder="CMake Files\..\build\platform_manipulator_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/platform_manipulator/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\platform_manipulator\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/platform_manipulator/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\platform_manipulator\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/simExtROS-master/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\simExtROS-master\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/simExtROS-master/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\simExtROS-master\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/simExtROS-master/generated/meta.cmake">
+			<Option virtualFolder="CMake Files\..\build\simExtROS-master\generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/sim_pkg/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\..\build\sim_pkg\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/sim_pkg/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\..\build\sim_pkg\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/sim_pkg/catkin_generated/sim_pkg-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\..\build\sim_pkg\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/sim_pkg/catkin_generated/sim_pkg-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\..\build\sim_pkg\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../build/sim_pkg/cmake/sim_pkg-genmsg.cmake">
+			<Option virtualFolder="CMake Files\..\build\sim_pkg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_workbench_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_workbench_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_workbench_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_workbench_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/template_package_msgs/cmake/template_package_msgs-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\template_package_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examples-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_sdk_examples\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_workbench_toolbox\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_workbench_toolbox\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_workbench_controllers\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\dynamixel_workbench_controllers\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/platform_manipulator_msgs/cmake/platform_manipulator_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\platform_manipulator_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/platform_manipulator_msgs/cmake/platform_manipulator_msgs-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\platform_manipulator_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/platform_manipulator_msgs/cmake/platform_manipulator_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\platform_manipulator_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/platform_manipulator_msgs/cmake/platform_manipulator_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\platform_manipulator_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/../devel/share/sim_pkg/cmake/sim_pkg-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\..\devel\share\sim_pkg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench/dynamixel_workbench/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dynamixel-workbench\dynamixel_workbench\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench/dynamixel_workbench/package.xml">
+			<Option virtualFolder="CMake Files\dynamixel-workbench\dynamixel_workbench\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench/dynamixel_workbench_toolbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dynamixel-workbench\dynamixel_workbench_toolbox\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench/dynamixel_workbench_toolbox/package.xml">
+			<Option virtualFolder="CMake Files\dynamixel-workbench\dynamixel_workbench_toolbox\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench/dynamixel_workbench_controllers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dynamixel-workbench\dynamixel_workbench_controllers\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench/dynamixel_workbench_controllers/package.xml">
+			<Option virtualFolder="CMake Files\dynamixel-workbench\dynamixel_workbench_controllers\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench/dynamixel_workbench_operators/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dynamixel-workbench\dynamixel_workbench_operators\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench/dynamixel_workbench_operators/package.xml">
+			<Option virtualFolder="CMake Files\dynamixel-workbench\dynamixel_workbench_operators\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dynamixel-workbench-msgs\dynamixel_workbench_msgs\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/package.xml">
+			<Option virtualFolder="CMake Files\dynamixel-workbench-msgs\dynamixel_workbench_msgs\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/template_package_msgs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\template_package_msgs\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/template_package_msgs/package.xml">
+			<Option virtualFolder="CMake Files\template_package_msgs\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/package.xml">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/setup.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/group_bulk_read.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/group_bulk_write.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/group_sync_read.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/group_sync_write.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/packet_handler.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/port_handler.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/protocol1_packet_handler.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/protocol2_packet_handler.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/robotis_def.py">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk\src\dynamixel_sdk\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk_examples\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/package.xml">
+			<Option virtualFolder="CMake Files\DynamixelSDK\ros\dynamixel_sdk_examples\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/gui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/gui/package.xml">
+			<Option virtualFolder="CMake Files\gui\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/gui_v3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gui_v3\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/gui_v3/package.xml">
+			<Option virtualFolder="CMake Files\gui_v3\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/ros_bubble_rob-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ros_bubble_rob-master\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/template_gui_package/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\template_gui_package\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/template_gui_package/package.xml">
+			<Option virtualFolder="CMake Files\template_gui_package\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/template_gui_package/rc/example_resouce.qrc">
+			<Option virtualFolder="CMake Files\template_gui_package\rc\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/platform_manipulator_msgs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\platform_manipulator_msgs\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/platform_manipulator_msgs/package.xml">
+			<Option virtualFolder="CMake Files\platform_manipulator_msgs\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/platform_manipulator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\platform_manipulator\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/platform_manipulator/package.xml">
+			<Option virtualFolder="CMake Files\platform_manipulator\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/simExtROS-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simExtROS-master\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/simExtROS-master/package.xml">
+			<Option virtualFolder="CMake Files\simExtROS-master\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/simExtROS-master/include/config.h.in">
+			<Option virtualFolder="CMake Files\simExtROS-master\include\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/sim_pkg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sim_pkg\"/>
+		</Unit>
+		<Unit filename="/home/dinara/ws/src/sim_pkg/package.xml">
+			<Option virtualFolder="CMake Files\sim_pkg\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
